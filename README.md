@@ -1,8 +1,3 @@
-Yahan ek sample **README.md** file hai jo maine us repo ke base pe banaya hai: *AbdulAhad390/Github-actions-Assignment*. Tum isko apni repo mein daal sakte ho aur apne names ya additional details adjust kar lena.
-
----
-
-```markdown
 # Github-actions-Assignment
 
 This repository is an assignment demonstrating GitHub Actions workflows: one for running a script, and another for running lint and test commands.
