@@ -1,0 +1,21 @@
+name: Run 
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Make script executable
+      run: chmod +x ./run.sh
+      
+    - name: Run shell script
+      run: ./run.sh
