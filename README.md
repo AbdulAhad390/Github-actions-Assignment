@@ -69,5 +69,4 @@ npm test
 ## 👤 Author
 
 * **Abdul Ahad**
-::contentReference[oaicite:0]{index=0}
-```
+----
